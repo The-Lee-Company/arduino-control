@@ -123,7 +123,7 @@ int16_t spm_i2c_read_int16(int i2c_address, int register_id)
   Wire.requestFrom(i2c_address, 2);//request 2 bytes of data encoding the response from the SPM
   if (Wire.available() < 2) 
   {
-    Serial.println("Error while reading SPM measurement");//errro report
+    Serial.println("Error while reading SPM measurement");//error report
     return -32768;
   }
  
