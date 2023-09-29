@@ -21,7 +21,7 @@ values.
 
 ## Contact us
 
-For additional support, please visit www.ttpventus.com/support or email the TTP Ventus Support Team at [support@ttpventus.com](mailto:support@ttpventus.com). 
+For additional support, please visit https://www.theleeco.com/contact/ or you can call our Technical Support Line on 1-800-LEE-PLUG.
 
 We welcome suggestions for how we can improve and build upon this repository; please feel free to share your ideas, feature requests and any bugs you identify with us using the email address above. 
 
