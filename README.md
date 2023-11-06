@@ -1,22 +1,14 @@
-# arduino-control
-## for Ventus General Purpos Drivers and SPMs
+# Disc pump General purpose driver and Smart pump modules arduino control
+This repository contains a Arduino code snippets for The Lee Company Disc Pump General purpose drive board (UEKA0300000AA), Evaluation kit (UEKA05xxxxxxxx) and Smart Pump Module (Uxxxx2xxxxxAA).
 
+## Repository contents
 Provided are two examples for communicating with and controlling Ventus Drive PCBs using and Arduino.
 
-The folder “SPM_GP UART Arduino Demo” contains code for communicating with a drive board over UART. The
-code is compatible with either a General Purpose Drive Board or with a Single Pump Module. The files
-“lee_ventus_uart.h” and “lee_ventus_uart.cpp” provide functions for communication with and control of
-the board. The file “SPM_GP UART Arduino Demo.ino” contains the example Arduino code, running through a
-demo consisting of multiple setpoints of power and PID pressure control.
+The folder “SPM_GP UART Arduino Demo” contains code for communicating with a drive board over UART. The code is compatible with either a General Purpose Drive Board or with a Smart Pump Module. The files “lee_ventus_uart.h” and “lee_ventus_uart.cpp” provide functions for communication with and control of the board. The file “SPM_GP UART Arduino Demo.ino” contains the example Arduino code, running through a demo consisting of multiple setpoints of power and PID pressure control.
 
-The folder “SPM I2C Arduino Demo” contains code for communicating with an SPM board over I2C. The code
-is only compatible with an SPM as the General Purpose Drive Boards do not support control over I2C. The
-files “lee_ventus_spm_i2c.h” and “lee_ventus_spm_i2c.cpp” provide functions for communication with and
-control of an SPM. The file “SPM I2C Arduino Demo.ino” contains a similar demo to the UART example.
+The folder “SPM I2C Arduino Demo” contains code for communicating with an SPM board over I2C. The code is only compatible with a Smart Pump Module as the General Purpose Drive Boards do not support control  over I2C. The files “lee_ventus_spm_i2c.h” and “lee_ventus_spm_i2c.cpp” provide functions for communication  with and control of an SPM. The file “SPM I2C Arduino Demo.ino” contains a similar demo to the UART example.
 
-The header file “lee_ventus_register.h” is common between the two projects. It provides a human readable
-mapping to the drive board register numbers. It also provides human readable mappings for some control
-values.
+The header file “lee_ventus_register.h” is common between the two projects. It provides a human readable mapping to the drive board register numbers. It also provides human readable mappings for some control values.
 
 
 ## Contact us
